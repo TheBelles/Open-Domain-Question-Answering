@@ -40,7 +40,7 @@ Retrieved passages are dynamically inserted into the model’s context window to
 - Chain-of-thought reasoning (CoT)
 
 ### Context Compression
-To improve efficiency and fit more relevant information:
+Techniques explored to increase relevance per token:
 - Instruction-aware compression  
 - Extractive summarization of retrieved text
 
@@ -48,11 +48,11 @@ To improve efficiency and fit more relevant information:
 
 ## Key Findings
 
-Our results show that:
+Our results show:
 
 - RAG improves access to up-to-date information  
 - Model size and prompting strategy significantly affect performance  
-- Context compression helps optimize limited context windows  
+- Context compression improves efficiency in limited context windows  
 - Experiments highlight challenges and opportunities in retrieval-augmented systems
 
 ---
