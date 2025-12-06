@@ -1,1 +1,15 @@
-README not exist
+This project implements and evaluates a Retrieval-Augmented Generation (RAG)
+system using a custom GPT-style language model for open-domain question answer-
+ing. We first construct a transformer-based decoder model (GPT-small) equipped
+with rotary positional embeddings (RoPE), RMSNorm, and grouped query atten-
+tion (GQA), pretraining it on a large corpus and fine-tuning it on summarization
+and classification tasks. For the RAG pipeline, we integrate a BM25-based re-
+triever with both our custom model and a large instruction-tuned language model
+(Llama-3.2-1B-Instruct), enabling dynamic retrieval and augmentation of external
+knowledge for each query. We explore advanced prompting strategies, includ-
+ing few-shot examples and chain-of-thought reasoning, and investigate context
+compression techniques to improve efficiency and relevance. Our results demon-
+strate the effectiveness of RAG for leveraging up-to-date information, highlight
+the impact of model size and prompting on performance, and provide insights into
+the challenges and opportunities for further enhancements in retrieval-augmented
+language models
